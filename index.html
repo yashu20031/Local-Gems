@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LocalGems - Discover Local Talent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>LocalGems</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#talents">Talents</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container hero-content">
+      <h2>Discover and Connect with Local Talent</h2>
+      <p>Find skilled individuals in music, sports, arts, and more in your area.</p>
+      <a href="#talents" class="btn-primary">Explore Talents</a>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About LocalGems</h2>
+    <p>
+      LocalGems is a dynamic platform designed to connect people with local talent in various fields such as music, sports, arts, and other specialized skills. Whether you're looking for a singer, a chess player, or any other local talent, LocalGems provides an easy-to-use interface to discover and engage with skilled individuals in your area.
+    </p>
+  </section>
+
+  <section id="features" class="container">
+    <h2>Features</h2>
+    <ul class="features-list">
+      <li>Easy-to-use interface to find local experts and performers</li>
+      <li>Visibility for local talent to showcase their skills</li>
+      <li>Search by skill, location, availability, and more</li>
+      <li>Connect directly with talented individuals</li>
+    </ul>
+  </section>
+
+  <section id="talents" class="container">
+    <h2>Find Local Talent</h2>
+    <div class="search-filters">
+      <input type="text" id="searchSkill" placeholder="Skill (e.g., singer, chess player)" />
+      <input type="text" id="searchLocation" placeholder="Location" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <ul id="talentList" class="talent-list">
+      <!-- Talent items will be dynamically inserted here -->
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: support@localgems.com</p>
+    <p>Phone: +1 234 567 8900</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 LocalGems. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
